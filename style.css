@@ -1,0 +1,126 @@
+body {
+  background-color: #d7da4f;
+}
+li {
+  padding-bottom: 2px;
+  color: white;
+  text-shadow: 0.5px 1px 2px black;
+  list-style-type: none;
+}
+p {
+  color: black;
+  text-shadow: 1px 1px white;
+  text-align: center;
+  font-size: xxxx-large;
+  font-family: serif;
+}
+h2 {
+  font-family: serif;
+  margin-top: 1rem;
+}
+input {
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+button {
+  display: inline-block;
+  font-family: serif;
+  background-color: #000000;
+  border-radius: 10px;
+  border: 3px double #050707;
+  color: #e2e0ee;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 150px;
+  margin-top: 3px;
+}
+#startpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#timer {
+  font-family: sans-serif;
+  background-color: #0d0f1d;
+  color: #eee674;
+  font-size: xx-large;
+  text-shadow: 0.5px 0.5px rgb(209, 194, 55);
+  text-align: left;
+}
+#quiz {
+  display: none;
+}
+#result {
+  display: none;
+}
+#gameover {
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+#highScore {
+  height: 2rem;
+  border: groove 2px;
+}
+
+#high-scorePage {
+  display: none;
+  width: 50%;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-bottom-style: groove;
+  padding-bottom: 0.2rem;
+  background: rgb(245, 245, 242);
+}
+#highscore-header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-style: outset;
+  margin-bottom: 1rem;
+  background-color: #000000;
+  color: #d7da4f;
+  font-family: serif;
+}
+#highscoreContainer {
+  height: 100%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#initials {
+  margin: 0.75rem;
+  height: 1.55rem;
+}
+#highscore-initials {
+  display: inline-block;
+  padding-left: 9rem;
+  font-family: serif;
+  font-weight: bold;
+}
+#highscore-score {
+  float: right;
+  padding-right: 9rem;
+  font-family: serif;
+  font-weight: bold;
+}
+#finalScore {
+  padding-bottom: 0.5rem;
+  font-size: xx-large;
+  font-family: serif;
+  font-weight: bold;
+}
+#endGameBtns {
+  display: none;
+}
